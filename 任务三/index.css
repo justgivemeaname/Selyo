@@ -1,0 +1,65 @@
+html{
+    font-size: 625%;
+}
+body{
+    background-color: #68cdd5;
+    font-size: 12px;
+    color: white;
+}
+.top{
+    position: relative;
+    padding:1rem 15% 0.25rem 15%;
+}
+.jiantou{
+    position: absolute;
+    background-image: url("images/jiantou.png");
+    width:0.32rem;
+    height:0.32rem;
+    left:0.1rem;
+    top:0.1rem;
+    -webkit-background-size: 0.32rem;
+    background-size: 0.32rem;
+}
+h1{
+    margin-bottom:1.2rem;
+    text-align: center;
+}
+h1 img{
+    max-width: 1rem;
+}
+p{
+    line-height:0.3rem;
+}
+.bot{
+    padding:1rem 0 0 0;
+    overflow: hidden;
+
+}
+.bot > div{
+    text-align: center;
+    min-width: 1rem;
+}
+.botleft{
+    float: left;
+}
+.botright{
+    float: right;
+}
+.tupian{
+    width:0.43rem;
+    height:0.43rem;
+    display:inline-block;
+    text-align: center;
+}
+.tupian.people{
+    background-image: url("images/people.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.tupian.putao{
+    background-image: url("images/putao.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+
