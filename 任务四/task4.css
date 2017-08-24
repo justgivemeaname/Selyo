@@ -50,7 +50,7 @@ img{
 }
 input{
     padding:0;
-    border:0;
+    border:00;
     outline:none;
     position: absolute;
     width:calc(100% - 1.18rem);
