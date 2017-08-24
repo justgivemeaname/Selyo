@@ -49,11 +49,13 @@ img{
     height:1rem;
 }
 input{
+    padding:0;
     border:0;
     outline:none;
     position: absolute;
-    width:100%;
+    width:calc(100% - 1.18rem);
     height:1rem;
+
     font-size: 0.28rem;
     text-indent: 0.32rem;
 }
