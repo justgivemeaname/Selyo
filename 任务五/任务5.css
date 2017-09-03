@@ -31,7 +31,7 @@ header p {
 main {
     width: 100%;
     height:auto;
-    margin-bottom: 1rem;
+    margin: 0.425rem 0 1rem 0;
 }
 .main-top {
     background: url("images/doctor.png") no-repeat;
