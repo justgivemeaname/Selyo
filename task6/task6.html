@@ -13,25 +13,60 @@
 </head>
 <body>
     <header>
-         <button class="employer" type="submit">找雇主</button>
-         <button class="employee" type="submit">找护工</button>
+        <div class="hire">
+         <button class="employer" type="button">找雇主</button>
+         <button class="employee" type="button">找护工</button></div>
+         <button class="map" type="button"></button>
     </header>
     <main>
         <div class="container">
-            <div class=" dropdown">
-                <button class="col-xs-4 btn btn-default dropdown-toggle a" type="button" id="dropdownMenu1" data-toggle="dropdown" >
+            <div class="col-xs-4 dropdown">
+                <button class="col-xs-12 btn-default dropdown-toggle a" type="button" id="dropdownMenu1" data-toggle="dropdown" >
                     所在地<span class="caret"></span>
                 </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li>
+                        <a href="#">广州</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#">深圳</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#">上海</a>
+                    </li>
+                </ul>
             </div>
-            <div class="dropdown">
-                <button class="col-xs-4 btn dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" type="button">
+            <div class="col-xs-4 dropdown">
+                <button class="col-xs-12 btn dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" type="button">
                     食宿<span class="caret"></span>
                 </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+                    <li>
+                        <a href="#">包吃住</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#">只包住</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#">只包吃</a>
+                    </li>
+                </ul>
             </div>
-            <div class="dropdown">
-                <button class="col-xs-4 btn dropdown-toggle" id="dropdownMenu3" data-toggle="dropdown" type="button">
+            <div class="col-xs-4 dropdown">
+                <button class="col-xs-12 btn dropdown-toggle" id="dropdownMenu3" data-toggle="dropdown" type="button">
                     病人情况<span class="caret"></span>
                 </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
+                    <li>
+                        <a href="#">良好</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#">较差</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#">较好</a>
+                    </li>
+                </ul>
             </div>
         </div>
         <table class="table">

@@ -6,21 +6,28 @@ html {
 }
 header {
     position: fixed;
-    background: #5fc0cd url("task6images/map.png") no-repeat 96% 0.15rem;
-    background-size: 0.2rem 0.2rem;
+    /*background: #5fc0cd url("task6images/map.png") no-repeat 96% 0.15rem;*/
+    /*background-size: 0.2rem 0.2rem;*/
+    background: #5fc0cd;
     width: 100%;
     height: 0.5rem;
-    text-align: center;
-    overflow: hidden;
+    /*text-align: center;*/
+}
+.hire {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
+
 }
 .employee,.employer {
     outline: none;
     border:0;
     border-radius: 0.08rem;
     font-size: 0.2rem;
-    position: relative;
-    top:50%;
-    transform:translatey(-50%);
+    /*position: relative;*/
+    /*top:50%;*/
+    /*transform:translatey(-50%) ;*/
 }
 .employer {
     background-color: #55a8b3;
@@ -29,7 +36,21 @@ header {
 .employee {
     background-color: #ffffff;
     color: #7dccd6;
+    position: relative;
     left: -0.08rem;
+}
+.map {
+    background: url("task6images/map.png");
+    background-size: 100%;
+    float: right;
+    outline: none;
+    border:0;
+    position: relative;
+    top:50%;
+    right:2%;
+    transform:translatey(-50%);
+    height:0.3rem;
+    width: 0.3rem;
 }
 main {
     width:100%;
@@ -42,6 +63,11 @@ main {
     width: 100%;
     padding: 0;
     height:0.4rem;
+
+}
+.dropdown {
+    text-align: center;
+    padding:0;
 }
 .container button {
     background-color: #ffffff;
@@ -52,12 +78,20 @@ main {
     border-bottom: #e1e5e7 0.01rem solid;
     border-right: #e1e5e7 0.01rem solid;
     border-radius: 0;
+    height:0.4rem;
 }
 .caret {
     position: relative;
     top:0.15rem;
     right:0.05rem;
     float: right;
+}
+.dropdown-menu {
+    width: 100%;
+    min-width:0.3rem;
+}
+li {
+    text-align: center;
 }
 .table {
     margin-bottom: 0;
