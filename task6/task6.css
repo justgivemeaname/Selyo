@@ -78,6 +78,8 @@ main {
     border-bottom: #e1e5e7 0.01rem solid;
     border-right: #e1e5e7 0.01rem solid;
     border-radius: 0;
+    border-top:0;
+    border-left:0;
     height:0.4rem;
 }
 .caret {
