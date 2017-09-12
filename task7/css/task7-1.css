@@ -1,0 +1,125 @@
+* {
+    margin:0;
+}
+html {
+    font-size: 625%;
+}
+body {
+    background: #f0f0f0;
+}
+header {
+    background: #29bde0;
+    width:100%;
+    height:0.4rem;
+    display: flex;
+    align-items: center;
+}
+.menu {
+    background: url("../task7images/menu.png") no-repeat;
+    background-size: 0.22rem 0.2rem;
+    width:0.22rem;
+    height:0.2rem;
+    outline:none;
+    border:0;
+    margin-left:4%;
+}
+main {
+    display: block;
+}
+.history {
+    background: #ffffff;
+    border:1px #c9c9c9 solid;
+    width:90%;
+    height:0.7rem;
+    /*position: relative;*/
+    /*top:0.3rem;*/
+    margin:0.3rem auto;
+    font-size: 0.25rem;
+}
+.history p {
+    position: relative;
+    text-align: center;
+    font-size: 0.25rem;
+    color: #9a9a9a;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.history a {
+    float: right;
+    background: url("../task7images/back.png") no-repeat;
+    background-size: 0.25rem 0.25rem ;
+    width:0.25rem;
+    height:0.25rem;
+    margin:-0.1rem 2% 0 0;
+}
+.game {
+    background: #ffffff;
+    width:90%;
+    margin:0 auto;
+    border:1px #c9c9c9 solid;
+}
+.ghost {
+    font-size: 0.23rem;
+    height:0.5rem;
+    border-bottom: 2px #fde1ae solid;
+}
+.ghost p {
+    color: #fbb435;
+    text-align: center;
+    font-size: 0.22rem;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.game-version {
+    width:85%;
+    padding:0.3rem 7.5% 0.3rem 7.5%;
+    position: relative;
+}
+.version {
+    height:0.5rem;
+    margin: 0.5rem 0 0 0;
+    background:#69d1e9;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height:0.5rem;
+}
+.version a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.game-version div p {
+    font-size: 0.15rem;
+    color: #9a9a9a;
+}
+.game-version div:nth-child(1) {
+    margin-top: 0;
+}
+.forward {
+    position: absolute;
+    background: url("../task7images/forward.png") no-repeat;
+    background-size: 0.18rem 0.2rem ;
+    width:0.18rem;
+    height:0.2rem;
+    bottom:56%;
+    right:1%;
+    border:0;
+    outline:none;
+}
+.icon {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+.circle {
+    width: 0.1rem;
+    height:0.1rem;
+    border-radius: 50%;
+    background: #f0f0f0;
+    margin-right: 0.03rem;
+}
+.icon div:nth-child(1) {
+    background: #69d1e9;
+}
