@@ -60,7 +60,7 @@ main {
     transform: translatey(-50%);
 }
 .audio {
-    background: url("task7images/audio.png") no-repeat;
+    background: url("../task7images/audio.png") no-repeat;
     background-size: 0.25rem 0.25rem;
     width:0.25rem;
     height:0.25rem;
