@@ -24,7 +24,7 @@ header p {
 .menu {
     border:0;
     outline:none;
-    background: url("task7images/menu2.png") no-repeat;
+    background: url("../task7images/menu2.png") no-repeat;
     background-size: 0.26rem 0.3rem;
     width:0.26rem;
     height:0.30rem;
@@ -34,7 +34,7 @@ header p {
 .close {
     border: 0;
     outline:none;
-    background: url("task7images/close.png") no-repeat;
+    background: url("../task7images/close.png") no-repeat;
     background-size: 0.25rem 0.25rem;
     width:0.25rem;
     height:0.25rem;
