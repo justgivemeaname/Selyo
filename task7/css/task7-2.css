@@ -104,8 +104,8 @@ main {
 }
 .box {
     float: left;
-    width:20%;
-    margin:0rem 5.87% 0;
+    width:30%;
+    margin:0rem 1.65% ;
 }
 .item {
     border:3px #ffffff solid;
@@ -140,12 +140,11 @@ main {
 }
 
 .tools {
-    position: relative;
     width: 100%;
     visibility: hidden;
     display: flex;
     justify-content: space-around;
-    margin:0.03rem 0 0rem 0;
+    margin: 0.05rem 0 0.1rem 0;
 
 }
 .tools button {
@@ -154,23 +153,23 @@ main {
     border:0;
     outline:none;
     float: left;
-    margin:0 auto 0.05rem;
+    margin:0 auto;
 }
 .knife {
-    background: url("../task7images/tools.png") no-repeat 5% -0.08rem;
-    background-size: 600%;
+    background: url("../task7images/tools.png") no-repeat 7% 55%;
+    background-size: 800%;
 }
 .glass{
-    background: url("../task7images/tools.png") no-repeat 36% -0.08rem;
-    background-size: 600%;
+    background: url("../task7images/tools.png") no-repeat 36% 55%;
+    background-size: 800%;
 }
 .aim {
-    background: url("../task7images/tools.png") no-repeat 64% -0.08rem;
-    background-size: 600%;
+    background: url("../task7images/tools.png") no-repeat 64% 55%;
+    background-size: 800%;
 }
 .ten {
-    background: url("../task7images/tools.png") no-repeat 95% -0.08rem;
-    background-size: 600%;
+    background: url("../task7images/tools.png") no-repeat 92.5% 55%;
+    background-size: 800%;
 }
 .box:hover .tools {
     visibility: visible;
