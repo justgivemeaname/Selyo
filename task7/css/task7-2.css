@@ -190,14 +190,15 @@ footer button {
     height:0.4rem;
     background: #fbb435;
     color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items:center;
+
     font-size: 0.18rem;
     outline:none;
     border:0;
 }
 footer button a {
+    display: flex;
+    justify-content: center;
+    align-items:center;
     text-decoration: none;
     color: #ffffff;
 }
