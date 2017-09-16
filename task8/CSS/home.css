@@ -1,0 +1,332 @@
+* {
+    margin:0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    width:100%;
+}
+header {
+    width: 100%;
+}
+.header-top {
+    position: relative;
+    background: #ffffff;
+    height:2.5rem;
+}
+.header-top p {
+    position: absolute;
+    top:50%;
+    transform: translatey(-50%);
+    margin:0;
+    color: #29b078;
+    font-size: 1.5rem;
+    left:10%;
+}
+.sign {
+    position: relative;
+    top:50%;
+    transform: translatey(-50%);
+    right:10%;
+    float: right;
+}
+.sign button {
+    width:2.1rem;
+    height:2rem;
+    padding:0;
+    border:none;
+    outline:none;
+}
+.sign button:nth-child(1) {
+    background: url("../task8images/sign.png") no-repeat 1% 1%;
+    background-size: cover;
+}
+.sign button:nth-child(2) {
+    background: url("../task8images/sign.png") no-repeat 50% 1%;
+    background-size: cover;
+}
+.sign button:nth-child(3) {
+    background: url("../task8images/sign.png") no-repeat 100% 1%;
+    background-size: cover;
+}
+.header-bot {
+    background: #29b078;
+    height:5rem;
+}
+.header-bot div {
+
+    float: right;
+}
+.header-bot div a {
+    height:5rem;
+    padding: 0;
+    text-decoration: none;
+    border-bottom: 3px #29b078 solid;
+}
+.a a p {
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%);
+    text-align: center;
+    margin:0;
+    color: #ffffff;
+}
+.a a:nth-child(1) {
+    border-bottom: 3px #ffffff solid;
+}
+main {
+    width:100%;
+}
+.main-guide {
+    background: url("../task8images/coding.png") no-repeat;
+    background-size: 100% 40rem;
+    height:40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-guide button {
+    position: relative;
+    border:none;
+    width:3rem;
+    height:4rem
+}
+.leftbtn {
+    background: url("../task8images/pull.png") no-repeat 1% 10%;
+    background-size: cover;
+    left:10%;
+}
+.rightbtn {
+    background: url("../task8images/pull.png") no-repeat 1% 90%;
+    background-size: cover;
+    right:10%;
+}
+.circle {
+    position: relative;
+    bottom:5%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    width:4rem;
+}
+.circle div {
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    border:1px #c7c5c9 solid;
+}
+.main-body {
+    background: #fafafa;
+    width:100%;
+    overflow: hidden;
+    padding: 0 10rem;
+}
+.first {
+    margin: 9rem 0;
+    overflow: hidden;
+}
+.a {
+    border-right: 1px #999999 dashed;
+}
+.first-top, .first-mid {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.first-bot {
+    text-align: left;
+}
+.people{
+    height:15.18rem;
+}
+.people ul{
+    position: relative;
+    top:50%;
+    transform: translatey(-50%);
+}
+.people ul li:nth-child(1),.people ul li:nth-child(3) {
+    list-style: none;
+    color: #26a26f;
+    display: flex;
+    align-items:center;
+}
+.people ul li:nth-child(2), .people ul li:nth-child(4) {
+    list-style: none;
+    color: #999999;
+}
+.second-top {
+    color: #333333;
+    text-align: center;
+}
+.second {
+    overflow: hidden;
+}
+.second-top p {
+    position: relative;
+    /*top:50%;*/
+    /*transform: translatey(-50%);*/
+    font-size:2rem;
+    font-weight: bold;
+    margin:0;
+}
+.second-mid {
+    margin: 2rem 0;
+ }
+.step {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 ;
+
+}
+.step .number {
+    width:4.5rem;
+    height:4.5rem;
+    margin:0 1rem;
+}
+.step .point {
+    width:2.5rem;
+    height:2rem;
+}
+.step p {
+    margin: 0;
+}
+.third {
+    margin:9rem 0 3rem;
+    overflow: hidden;
+}
+.third-top p {
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+.third-mid {
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.third-mid div {
+    border: 0.1rem #eeeded solid;
+    background: #ffffff;
+}
+.third-mid h4 {
+    font-size: 1.8rem;
+    color: #000;
+}
+.third-mid p {
+    text-align: left;
+    color: #999999;
+}
+.circle {
+    margin:3rem auto;
+}
+.circle div {
+    width:0.8rem;
+    height:0.8rem;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px #999999;
+    background: #ffffff;
+}
+.circle div:nth-child(1) {
+    background: #29b078;
+}
+.fourth {
+    overflow: hidden;
+}
+.fourth-top {
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+.fourth-bot {
+    display: flex;
+    margin: 3rem 0;
+}
+.fourth-bot div {
+    width: 20%;
+    background: #ffffff;
+    padding:0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 7px 10px #f3f3f3;
+}
+.fourth-bot div:hover {
+    box-shadow: -7px 7px 10px #f3f3f3, 7px -7px 10px #f3f3f3  ;
+    z-index: 1;
+}
+.fourth-bot div img {
+    margin:0 auto;
+    min-width:20%;
+}
+.main-bot {
+    overflow: hidden;
+}
+.mainbot-bot {
+    background: #ffffff;
+}
+.mainbot-top p {
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    margin:0.5rem 0 0 0;
+    text-align: center;
+}
+.r {
+    position: relative;
+    left:50%;
+    transform: translatex(-50%);
+}
+.mainbot-bot ul{
+    margin-top:3rem;
+    float: left;
+    color: #999999;
+}
+footer {
+    padding: 0 10rem;
+    overflow: hidden;
+    background: #26a26f;
+}
+.footer-top {
+    overflow: hidden;
+    padding-bottom: 2rem;
+}
+.footer-top p {
+    color: #ffffff;
+}
+.footer-top p span {
+    border-right: 1px #ffffff solid;
+    padding: 0 0.5rem;
+}
+.footer-top p span:nth-child(1) {
+    padding-left: 0;
+}
+.t {
+    margin-top:1rem;
+}
+.gap {
+    margin-top: 1rem;
+}
+.wechat {
+    text-align: center;
+}
+.footer-bot {
+    text-align: center;
+}
+.footer-bot p {
+    color: #ffffff;
+    position: relative;
+    top:50%;
+    transform: translatey(-50%);
+    margin:0;
+}
+
+
+
+
+
