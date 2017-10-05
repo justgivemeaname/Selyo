@@ -1,12 +1,29 @@
 div{
 	width: 100%;
 	background-color: #fea500;
-} 
+}
 .n{
 	width: 32%;
 	border-radius: 5px;
 	float: left;
 	padding-top: 32%;
-	margin:0.66%; 
+	margin:0.66%;
  }
 
+#start, #end {
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	margin: 10px 0;
+}
+#start {
+	background: #fea500;
+	color: #fff;
+}
+#end {
+	background: #fff;
+	color: #fea500;
+	border: 1px #fea500 solid;
+}
