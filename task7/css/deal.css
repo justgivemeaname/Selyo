@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html {
+    font-size:62.5%;
+}
+header {
+    position: relative;
+    height:3rem;
+    width:100%;
+    background: #29bde0;
+    text-align: center;
+    color: #ffffff;
+    font-size:1.5rem;
+
+}
+
+header button{
+    position: relative;
+    top:50%;
+    transform: translatey(-50%);
+    position: absolute;
+    border:none;
+}
+
+header #prevBtn {
+    left:2rem;
+}
+
+header #prevBtn img{
+    width: 1.2rem;
+    height:2rem;
+}
+
+header #closeBtn {
+    right:2rem;
+}
+
+header #closeBtn img{
+
+    width: 2rem;
+    height:2rem;
+}
